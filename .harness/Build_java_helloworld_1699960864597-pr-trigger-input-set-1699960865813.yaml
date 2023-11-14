@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_java_helloworld_1699960864597-pr-trigger-input-set
+  identifier: Build_java_helloworld_1699960864597prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: LeonProject
+  pipeline:
+    identifier: Build_java_helloworld_1699960864597
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
