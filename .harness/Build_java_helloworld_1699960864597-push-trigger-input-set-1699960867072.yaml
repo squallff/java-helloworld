@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_java_helloworld_1699960864597-push-trigger-input-set
+  identifier: Build_java_helloworld_1699960864597pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: LeonProject
+  pipeline:
+    identifier: Build_java_helloworld_1699960864597
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
